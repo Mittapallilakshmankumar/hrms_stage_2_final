@@ -30,6 +30,7 @@ urlpatterns = [
      path('api/attendance/', include('attendance.urls')),
      path('api/', include('login.urls')),
      path('api/leave/', include('leave.urls')),#leave
+
 ]
 
 # ✅ MEDIA FILES (for image upload)
